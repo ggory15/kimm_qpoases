@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>kimm_hqp</name>
+  <name>kimm_qpoases</name>
   <version>1.0.0</version>
   <description>
-    HQP controller for KIMM
+    QPoases for KIMM
   </description>
   
   <license>BSD</license>
@@ -15,9 +15,9 @@
   <exec_depend condition="$ROS_VERSION == 1">catkin</exec_depend>
   <exec_depend condition="$ROS_VERSION == 2">ament_cmake</exec_depend>
 
-  <buildtool_depend>cmake</buildtool_depend>
+  <buildtool_depend>catkin</buildtool_depend>
 
   <export>
-    <build_type>cmake</build_type>
+    <build_type>catkin</build_type>
   </export>
 </package>
